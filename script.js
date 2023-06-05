@@ -36,3 +36,4 @@ function resetCalculator() {
     document.getElementById("discounted-amount").value = "";
     document.getElementById("discount-percentage").innerHTML = "";
 }
+
