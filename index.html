@@ -5,25 +5,35 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Calculadora de descuentos</h1>
-    <div class="calculator">
-        <h3>Función 1: Calcular el descuento</h3>
-        <label for="price">Precio:</label>
-        <input type="number" id="price">
-        <label for="percentage"><br><br>Porcentaje de descuento:</label>
-        <input type="number" id="percentage">
-        <button onclick="calculateDiscount()">Calcular descuento</button>
-        <p id="discount-amount"></p>
+    <div class="container">
+        <h1>Calculadora de descuentos</h1>
+        <div class="calculator">
+            <h3>Función 1: Calcular el descuento</h3>
+            <label for="price">Precio:</label>
+            <br>
+            <input type="number" id="price">
+            <br>
+            <label for="percentage">Porcentaje de descuento:</label>
+            <br>
+            <input type="number" id="percentage">
+            <br>
+            <button onclick="calculateDiscount()">Calcular descuento</button>
+            <p id="discount-amount"></p>
 
-        <h3>Función 2: Calcular el porcentaje de descuento</h3>
-        <label for="original-price">Precio original:</label>
-        <input type="number" id="original-price">
-        <label for="discounted-amount"><br><br>Cantidad descontada:</label>
-        <input type="number" id="discounted-amount">
-        <button onclick="calculatePercentage()">Calcular porcentaje</button>
-        <p id="discount-percentage"></p>
+            <h3>Función 2: Calcular el porcentaje de descuento</h3>
+            <label for="original-price">Precio original:</label>
+            <br>
+            <input type="number" id="original-price">
+            <br>
+            <label for="discounted-amount">Cantidad descontada:</label>
+            <br>
+            <input type="number" id="discounted-amount">
+            <br>
+            <button onclick="calculatePercentage()">Calcular porcentaje</button>
+            <p id="discount-percentage"></p>
 
-        <button onclick="resetCalculator()">Resetear</button>
+            <button onclick="resetCalculator()">Resetear</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
